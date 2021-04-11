@@ -52,7 +52,7 @@ admissionregistration.k8s.io/v1beta1
 
 > Note: if you change the registry and image, remember modify the image that in deploy/deployment.yaml at the same time
 
-## Deploy
+## Deploy (download this project to master node and run the command below to deploy)
 
 1. Create namespace `sidecar-injector` in which the sidecar injector webhook is deployed:
 
