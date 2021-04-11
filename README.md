@@ -45,8 +45,11 @@ admissionregistration.k8s.io/v1beta1
 ```
 
 > Note: log into the docker registry before pushing the image.
-> Note: default registry is docker.io, you can change it
-> Note: if you want to change the registry, you can modify the IMAGE_REPO ?= your_new_repo and IMAGE_NAME ?= your_new_image_name which in Makefile
+
+> Note: default registry is docker.io, you can change it.
+
+> Note: if you want to change the registry, you can modify the IMAGE_REPO ?= your_new_repo and IMAGE_NAME ?= your_new_image_name which in Makefile.
+
 > Note: if you change the registry and image, remember modify the image that in deploy/deployment.yaml at the same time
 
 ## Deploy
